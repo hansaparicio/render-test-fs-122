@@ -7,6 +7,7 @@ npm run build
 
 pip install --upgrade pip
 pip install pipenv
+pip install -r requirements.txt
 
 pipenv install
 pipenv run migrate
