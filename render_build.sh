@@ -8,6 +8,6 @@ npm run build
 pip install --upgrade pip
 pip install pipenv
 
-pipenv install
+pipenv install --dev --deploy --ignore-pipfile
 pipenv run migrate
 pipenv run upgrade
